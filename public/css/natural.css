@@ -1,0 +1,134 @@
+#container {
+    text-align: center;
+  margin-top: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  
+  }
+  
+  #container img{
+    width: 250px;
+    height: 250px;
+  
+  }
+  
+  .na{
+    font-size: 15px ;
+    border-radius: 20px;
+    background-color: black;
+    border: solid;
+    padding-left: 20px;
+    padding-right:20px;
+  
+  }
+  
+  .man{
+     background-color: white ;
+     font-size: 15px ;
+    border-radius: 20px;
+    color: black;
+    border: solid;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  .column {
+    float: left;
+    width: 50%; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #container a{
+    color: black;
+    text-decoration: none;
+    font-size: 20   px;
+  }
+  
+  .fa-solid {
+    font-size: 45px;
+    color: black;
+  }
+  .border img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .column {
+    float: left;
+    width: 22%;
+    padding:20px;
+    margin: 0px;
+  }
+  .row {
+    margin: 5px;
+  
+  }
+  .border {
+    box-shadow: 0 4px 8px 0 black;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 5px;
+  
+    
+  }
+  /* Responsive columns */
+  @media screen and (max-width: 1450px) {
+    .column {
+    float: left;
+    width: 29%;
+    padding:20px;
+    margin: 0px;
+  }
+  }
+  
+  @media screen and (max-width: 1170px) {
+    .column {
+    float: left;
+    width: 29%;
+    padding:20px;
+    margin: 5px;
+  }
+  }
+  @media screen and (max-width: 900px) {
+    .column {
+    float: left;
+    width: 45%;
+    padding:20px;
+    margin: 5px;
+  }
+  }
+  @media screen and (max-width: 930px) {
+    .column {
+    float: left;
+    width: 45%;
+    padding:20px;
+    margin: 0px;
+  }
+  }
+  @media screen and (max-width: 805px) {
+    .column {
+    float: left;
+    width: 43%;
+    padding:20px;
+    margin: 0px;
+  }
+  }
+  @media screen and (max-width: 630px) {
+    .column {
+      width: 91%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .border img{
+      width: 380px;
+  
+    }
+    
+  }
